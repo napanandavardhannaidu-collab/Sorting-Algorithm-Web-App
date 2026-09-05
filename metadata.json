@@ -1,0 +1,6 @@
+{
+  "name": "Sorting Algoritm Web App",
+  "description": "Interactive sorting algorithm simulator, empirical performance graphs, asymptotic time complexity analysis, custom array generator (random, even, odd, prime), and multi-language source code generator for 15 sorting algorithms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

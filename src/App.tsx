@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { UnifiedSortingDashboard } from './components/UnifiedSortingDashboard';
 import { ArrowUp, BarChart3, Cpu, Binary, Code2 } from 'lucide-react';
 import { AnimatedLogo } from './components/AnimatedLogo';
+import { AiChatBot } from './components/AiChatBot';
 
 export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -81,13 +82,15 @@ export default function App() {
         </div>
       </footer>
 
+      <AiChatBot />
+
       {showScrollTop && (
         <button
           type="button"
           onClick={scrollToTop}
           aria-label="Scroll to top"
           title="Scroll to top"
-          className="fixed bottom-5 right-4 z-50 inline-flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-white shadow-lg ring-1 ring-white/20 transition hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:bottom-7 sm:right-7"
+          className="fixed bottom-20 right-4 z-50 inline-flex h-11 w-11 items-center justify-center rounded-full bg-slate-900 text-white shadow-lg ring-1 ring-white/20 transition hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:bottom-24 sm:right-7"
         >
           <ArrowUp className="h-5 w-5" />
         </button>
